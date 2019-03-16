@@ -9,4 +9,10 @@ watercolor flower 1500
 
 ## resize photos
 scaling to 256X256 pixels  
-[process.py](https://github.com/affinelayer/pix2pix-tensorflow.git)
+[process.py](https://github.com/affinelayer/pix2pix-tensorflow.git)  
+'''
+! python pix2pix-tensorflow/tools/process.py \
+  --input_dir Dataset/vase_origin/flower_in_vase \
+  --operation resize \
+  --output_dir Dataset/vase
+'''
