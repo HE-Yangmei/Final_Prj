@@ -20,4 +20,12 @@ scaling images to 256X256 pixels
 ## train&test
 9:1  
 ## CNN&CycleGAN&artGAN  
+### 1. Neural style transfer  
+using CNN  
+paper: [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)
+[code](https://github.com/keras-team/keras/blob/master/examples/neural_style_transfer.py)  
+Experiments  
+
+### 2. CycleGAN  
+### 3. artGAN
 
