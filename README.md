@@ -5,7 +5,7 @@ Download flickr images by texts, flickr.walk [flickr api usage](https://www.flic
 [google cloud](https://drive.google.com/drive/folders/1q252qzRZGE5iWlCLZwn1mJfajVxk7I22?usp=sharing)  
 natural flower & flower in vase 1500  
 watercolor flower 1500  
-删除部分黑白和不适合的图片  
+删除部分黑白、带水印和文字的图片  
 
 ## resize photos
 scaling images to 256X256 pixels  
@@ -22,7 +22,7 @@ scaling images to 256X256 pixels
 ## CNN&CycleGAN&artGAN  
 ### 1. Neural style transfer  
 using CNN  
-paper: [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)
+paper: [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)  
 [code](https://github.com/keras-team/keras/blob/master/examples/neural_style_transfer.py)  
 Experiments  
 
