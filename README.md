@@ -3,9 +3,9 @@
 ## Dataset
 Download flickr images by texts, flickr.walk [flickr api usage](https://www.flickr.com/services/api/)
 [google cloud](https://drive.google.com/drive/folders/1q252qzRZGE5iWlCLZwn1mJfajVxk7I22?usp=sharing)  
-natural flower & flower in vase 1500  
+flower & flower in vase 1500  
 watercolor flower 1500  
-删除部分黑白、带水印和文字的图片  
+自然图像和水彩画花下载下来的图像构图方面并不是很契合，GAN学习过程会有学习构图和局部区别？删除部分黑白、带水印和文字的图片  
 
 ## resize photos
 scaling images to 256X256 pixels  
