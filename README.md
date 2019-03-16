@@ -6,3 +6,5 @@ flickr.walk
 natural flower & flower in vase 1500  
 watercolor flower 1500  
 删除部分黑白和不适合的图片  
+
+## resize photos
