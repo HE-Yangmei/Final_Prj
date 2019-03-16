@@ -8,7 +8,7 @@ watercolor flower 1500
 删除部分黑白和不适合的图片  
 
 ## resize photos
-scaling to 256X256 pixels  
+scaling images to 256X256 pixels  
 [process.py](https://github.com/affinelayer/pix2pix-tensorflow.git)  
 
 ```  
@@ -18,5 +18,6 @@ scaling to 256X256 pixels
   --output_dir Dataset/vase  
 ```  
 ## train&test
-9:1
+9:1  
+## CNN&CycleGAN&artGAN  
 
