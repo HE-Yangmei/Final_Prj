@@ -25,6 +25,7 @@ using CNN
 paper: [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)  
 [code](https://github.com/keras-team/keras/blob/master/examples/neural_style_transfer.py)  
 Experiments  
+每种花需要找到对应的水彩画
 
 ### 2. CycleGAN  
 ### 3. artGAN
