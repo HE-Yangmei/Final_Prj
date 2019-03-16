@@ -15,6 +15,6 @@ scaling to 256X256 pixels
 ! python pix2pix-tensorflow/tools/process.py \
   --input_dir Dataset/vase_origin/flower_in_vase \
   --operation resize \
-  --output_dir Dataset/vase
+  --output_dir Dataset/vase  
 '''  
 
