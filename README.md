@@ -1,12 +1,12 @@
 # Final_Prj
 
 ## Dataset
-· Download flickr images by texts, flickr.walk [flickr api usage](https://www.flickr.com/services/api/)  
+* Download flickr images by texts, flickr.walk [flickr api usage](https://www.flickr.com/services/api/)  
 [Dataset origin](https://drive.google.com/drive/folders/1q252qzRZGE5iWlCLZwn1mJfajVxk7I22?usp=sharing)  
 1500 images of flower & flower in vase  
 1500 images of watercolor flower   
-· 自然图像和水彩画花下载下来的图像构图方面并不是很契合，自然图像很多花朵大特写，水彩画多是群花，GAN学习过程会有学习构图和局部区别？  
-· 删除部分黑白、带水印和文字的图片  
+* 自然图像和水彩画花下载下来的图像构图方面并不是很契合，自然图像很多花朵大特写，水彩画多是群花，GAN学习过程会有学习构图和局部区别？  
+* 删除部分黑白、带水印和文字的图片  
 
 ## resize photos
 scaling images to 256X256 pixels  
