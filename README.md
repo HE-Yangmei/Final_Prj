@@ -36,7 +36,4 @@ Experiments
 ### 2. CycleGAN  
 ### 3. artGAN
 
-name | age
----- | ---
-LearnShare | 12
-Mike |  32
+
