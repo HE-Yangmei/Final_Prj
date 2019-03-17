@@ -1,7 +1,7 @@
 # Final_Prj
 
 ## Dataset
-Download flickr images by texts, flickr.walk [flickr api usage](https://www.flickr.com/services/api/)
+Download flickr images by texts, flickr.walk [flickr api usage](https://www.flickr.com/services/api/)  
 [google cloud](https://drive.google.com/drive/folders/1q252qzRZGE5iWlCLZwn1mJfajVxk7I22?usp=sharing)  
 flower & flower in vase 1500  
 watercolor flower 1500  
@@ -26,7 +26,11 @@ using CNN
 paper: [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)  
 [code](https://github.com/keras-team/keras/blob/master/examples/neural_style_transfer.py)  
 Experiments  
-每种花需要找到对应的水彩画
+每种花需要找到对应的水彩画  
+content  |  style  |  result  
+-------  |  -----  |  ------  
+![google cloud](https://drive.google.com/open?id=1KkyMp2JsmzrG28j1iK4jv30qm8P0IKbP)  |  ![google cloud](https://drive.google.com/open?id=18LJIgFk9N6BeNADd74lSjWlagZK5j6ks)  |  ![google cloud](https://drive.google.com/open?id=1MgHi_rzMZlIIuoyKG-d8EeD4AS71jtmC)  
+
 
 ### 2. CycleGAN  
 ### 3. artGAN
