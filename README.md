@@ -33,6 +33,8 @@ paper: [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) 
 
 
 ### 2. CycleGAN  
+paper & code: [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://junyanz.github.io/CycleGAN/)  
+
 ### 3. artGAN
 
 
