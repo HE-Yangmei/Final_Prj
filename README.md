@@ -25,8 +25,8 @@ scaling images to 256X256 pixels
 using CNN  
 paper: [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)  
 [code](https://github.com/keras-team/keras/blob/master/examples/neural_style_transfer.py)  
-Experiments  
-每种花需要找到对应的水彩画  
+   
+每种花需要找到对应的水彩画，不能只改变笔触、线条、晕染效果，会把原图片的颜色改变  
 
 |  content  |  style  |  result  |
 |  -------  |  -----  |  ------  |
