@@ -19,7 +19,7 @@ scaling images to 256X256 pixels
   --output_dir Dataset/vase  
 ```  
 ## train&test
-9:1  
+训练集:测试集 = 9:1  
 ## CNN&CycleGAN&artGAN  
 ### 1. Neural style transfer  
 VGG19  
@@ -34,6 +34,7 @@ paper: [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) 
 
 ### 2. CycleGAN  
 paper & code: [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://junyanz.github.io/CycleGAN/)  
+torch  
 
 ### 3. artGAN
 
