@@ -19,7 +19,7 @@ scaling images to 256X256 pixels
   --output_dir Dataset/vase  
 ```  
 ## train&test
-训练集:测试集 = 9:1  
+手动分割训练集:测试集 = 9:1  
 ## CNN&CycleGAN&artGAN  
 ### 1. Neural style transfer  
 VGG19  
