@@ -20,7 +20,7 @@ scaling images to 256X256 pixels
 ```  
 ## train&test
 手动分割训练集:测试集 = 9:1  
-随机抽取，sort = relevance  
+随机抽取，从Flickr下载图片的时候用了sort = relevance，数据集不能直接按顺序划分  
 
 ## CNN&CycleGAN&artGAN  
 ### 1. Neural style transfer  
