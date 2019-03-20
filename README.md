@@ -20,6 +20,8 @@ scaling images to 256X256 pixels
 ```  
 ## train&test
 手动分割训练集:测试集 = 9:1  
+随机抽取，sort = relevance  
+
 ## CNN&CycleGAN&artGAN  
 ### 1. Neural style transfer  
 VGG19  
