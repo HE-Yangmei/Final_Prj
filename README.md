@@ -37,6 +37,7 @@ paper: [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) 
 ### 2. CycleGAN  
 paper & code: [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://junyanz.github.io/CycleGAN/)  
 tensorflow  
+苏剑林  
 * train  
 保存模型：flower2watercolor.pb,watercolor2flower.pb
 * test  
