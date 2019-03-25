@@ -41,7 +41,9 @@ tensorflow
 * train  
 保存模型：flower2watercolor.pb,watercolor2flower.pb
 * test  
+  
+### 3. CycleGAN-qp  
 
-### 3. artGAN
+### 4. artGAN
 
 
