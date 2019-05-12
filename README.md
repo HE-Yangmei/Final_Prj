@@ -45,6 +45,7 @@ tensorflow
 * test  
   
 ### 3. CycleGAN-qp  
+paper & code: [Artist Style Transfer Via Quadratic Potential](https://github.com/rahulbhalley/cyclegan-qp)
 
 ### 4. artGAN
 
