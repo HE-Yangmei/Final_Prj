@@ -1,12 +1,14 @@
 # Final_Prj  
   
-[colab, google cloud](https://drive.google.com/drive/folders/1SWKWTHqA1hC1k4adu6R4U1gLErqcvPJV?usp=sharing)
+[colab, google cloud](https://drive.google.com/drive/folders/1SWKWTHqA1hC1k4adu6R4U1gLErqcvPJV?usp=sharing)  
+[main work](https://colab.research.google.com/drive/1KciyG8rX-lXj-OSchO6sZ5OzUGDWthRG)
 
 ## Dataset
 * Download flickr images by texts, flickr.walk [flickr api usage](https://www.flickr.com/services/api/)  
 [Dataset origin](https://drive.google.com/drive/folders/1q252qzRZGE5iWlCLZwn1mJfajVxk7I22?usp=sharing)  
 1500 images of flower & flower in vase  
 1500 images of watercolor flower   
+[usage](https://github.com/harrysha1029/flickr_download_images)  
 * 自然图像和水彩画花下载下来的图像构图方面并不是很契合，自然图像很多花朵大特写，水彩画多是群花，GAN学习过程会有学习构图和局部区别？  
 * 删除部分黑白、带水印和文字的图片  
 
@@ -23,6 +25,25 @@ scaling images to 256X256 pixels
 ## train&test
 随机分割训练集:测试集 = 9:1  
 随机抽取，从Flickr下载图片的时候用了sort = relevance，数据集不能直接按顺序划分  
+```  
+import os, random, shutil
+def moveFile(fileDir):
+        pathDir = os.listdir(fileDir)    #取图片的原始路径
+        filenumber=len(pathDir)
+        rate=0.9    #自定义抽取图片的比例，比方说100张抽10张，那就是0.1
+        picknumber=int(filenumber*rate) #按照rate比例从文件夹中取一定数量图片
+        sample = random.sample(pathDir, picknumber)  #随机选取picknumber数量的样本图片
+        print (sample)
+        for name in sample:
+                shutil.move(fileDir+name, tarDir+name)
+        return
+```  
+```  
+if __name__ == '__main__':
+	fileDir = "flower/"    #源图片文件夹路径
+	tarDir = "flower/train/"    #移动到新的文件夹路径
+	moveFile(fileDir)  
+```  
 
 ## CNN&CycleGAN&artGAN  
 ### 1. Neural style transfer  
