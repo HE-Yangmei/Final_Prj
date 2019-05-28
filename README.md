@@ -59,7 +59,7 @@ paper & code: [Artist Style Transfer Via Quadratic Potential](https://github.com
 
 ## failure  
 ![failure](https://github.com/HE-Yangmei/Final_Prj/blob/master/experiment/failure.png)  
-<img src="https://github.com/HE-Yangmei/Final_Prj/blob/master/experiment/failure.png" width="150" height="200" alt="图片描述文字"/>
+<div align=center><img width="1024" height="150" src="https://github.com/HE-Yangmei/Final_Prj/blob/master/experiment/failure.png"/></div>
 
 
 
