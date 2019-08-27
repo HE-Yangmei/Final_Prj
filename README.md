@@ -78,7 +78,7 @@ paper & code: [Artist Style Transfer Via Quadratic Potential](https://github.com
 ### 4.Tuning  
 ![tuning](https://github.com/HE-Yangmei/Final_Prj/blob/master/experiment/Adabound.png)  
 
-## failure  
+### failure  
 ![failure](https://github.com/HE-Yangmei/Final_Prj/blob/master/experiment/failure.png)  
 
 
