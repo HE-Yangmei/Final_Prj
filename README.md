@@ -1,5 +1,6 @@
 # Final_Prj  
   
+[终稿0.pdf](https://drive.google.com/open?id=11U0hXojYDwIRsc56sy3qLSyqZJIJxXLR)  
 [colab, google cloud](https://drive.google.com/drive/folders/1SWKWTHqA1hC1k4adu6R4U1gLErqcvPJV?usp=sharing)  
 [main work](https://colab.research.google.com/drive/1KciyG8rX-lXj-OSchO6sZ5OzUGDWthRG)
 
