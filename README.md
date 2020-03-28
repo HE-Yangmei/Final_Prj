@@ -72,16 +72,16 @@ paper & code: [Artist Style Transfer Via Quadratic Potential](https://github.com
 
 ### 4. artGAN  
 ## Experiment  
-### 1. comparison between CNN&cycleGAN-qp  
+### 1. Comparison between CNN&cycleGAN-qp  
 ![comparison](https://github.com/HE-Yangmei/Final_Prj/blob/master/experiment/CNN%26cycleGAN-qp.png)  
 ### 2. FID-Score  
 ![FID-Score](https://github.com/HE-Yangmei/Final_Prj/blob/master/experiment/FID.png)  
 ### 3. Ablation experiment  
 ![ablation](https://github.com/HE-Yangmei/Final_Prj/blob/master/experiment/ablation.png)  
-### 4.Tuning  
+### 4. Tuning  
 ![tuning](https://github.com/HE-Yangmei/Final_Prj/blob/master/experiment/Adabound.png)  
 
-### 5.failure  
+### 5. Failure  
 ![failure](https://github.com/HE-Yangmei/Final_Prj/blob/master/experiment/failure.png)  
 
 
