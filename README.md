@@ -1,6 +1,7 @@
 # Final_Prj  
   
 [终稿0.pdf](https://drive.google.com/open?id=11U0hXojYDwIRsc56sy3qLSyqZJIJxXLR)  
+[深度有趣](https://zhuanlan.zhihu.com/DeepInterests)  
 [colab, google cloud](https://drive.google.com/drive/folders/1SWKWTHqA1hC1k4adu6R4U1gLErqcvPJV?usp=sharing)  
 [main work:cycleGAN](https://colab.research.google.com/drive/1KciyG8rX-lXj-OSchO6sZ5OzUGDWthRG)  
 [main work:CNN](https://drive.google.com/open?id=1u_lOXBtz0mE2xNNU3nYKcxXhqeWzTBWs)
@@ -80,7 +81,7 @@ paper & code: [Artist Style Transfer Via Quadratic Potential](https://github.com
 ### 4.Tuning  
 ![tuning](https://github.com/HE-Yangmei/Final_Prj/blob/master/experiment/Adabound.png)  
 
-### failure  
+### 5.failure  
 ![failure](https://github.com/HE-Yangmei/Final_Prj/blob/master/experiment/failure.png)  
 
 
