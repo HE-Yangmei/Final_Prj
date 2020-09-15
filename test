@@ -1,0 +1,98 @@
+'''
+# 例题2-1-----------------------------------------------------------------
+# 2-1.1
+print((6 + 10) % 7)
+# 2-1.2
+seconds = eval(input("请输入一个整数秒："))
+minutes = seconds // 60 # 获取分钟数
+remainingSeconds = seconds % 60 # 获取除去分钟后的秒数
+print(seconds, "秒是", minutes, "分", remainingSeconds, "秒")
+-----------------------------------------------------------------------------
+# 类型转换int()函数
+# 没有进位，只取整数部分
+print(int(2.6))
+# 作用于变量，但不会改变变量的值
+x = 3.3
+print(int(x))
+print(x)
+# 将整数字符串转换为整数
+print(int('11') + 2)
+print(eval('11') + 2)
+print('11' + 2) # 会报错
+
+# 类型转换float()函数
+print(float(3))
+print(float('4'))
+# ------------------------------------------------------------------------------------
+# 例题2-2
+# 获取销售额
+sales = eval(input("请输入销售额："))
+# 计算增值税
+tax = sales * 0.13
+# 输出带两位小数的销售额
+print("增值税是：", int(tax * 100) / 100.0)
+# ------------------------------------------------------------------------------------
+# 例题2-3
+# 类型转换
+print(int(True))
+print(int(False))
+print(float(True))
+print(float(False))
+
+# 比较运算符的使用
+x = 12
+print(x == 12)
+print(x != 12)
+print(x >= 20)
+
+# 比较运算符在if条件语句中的使用
+x = eval(input("请输入一个整数："))
+y = x % 2 # 取2的余数，偶数取2的余数总是0，奇数取2的余数总是1
+if y == 0:
+    print(x, '是一个偶数')
+# --------------------------------------------------------------------------------------
+# 例题2-4
+a = 1
+a += 8
+a -= 8
+a *= 8
+a /= 8
+a //= 8
+a %= 8
+# ------------------------------------------------------------------------------------------
+# 例题2-5
+x = 1
+y = 5
+print((x == 1) and (y == 5)) # 与
+print((x == 1) or (y > 9))   # 或
+print(not (x != 1))          # 非
+# 判断闰年
+# 获取年份输入
+year = eval(input("请输入一个年份："))
+# 用布尔表达式判断是否是闰年
+isLeapYear = ((year % 4) == 0)
+isLeapYear = isLeapYear and ((year % 100) != 0)
+isLeapYear = isLeapYear or ((year % 400) == 0)
+# 输出判断结果
+print(year, "是闰年吗？", isLeapYear)
+
+math, chinese = eval(input('请以英文逗号为间隔依次输入数学和语文成绩：'))
+if (math >= 60) and (chinese >= 60):
+    print('成绩合格')
+
+
+# -------------------------------------------------------------------------------------
+# 四舍五入，函数定义、字符串处理、选择语句
+def new_round(_float, _len):
+    if isinstance(_float, float):
+        if str(_float)[::-1].find('.') <= _len:
+            return(_float)
+        if str(_float)[-1] == '5':
+            return(round(float(str(_float)[:-1]+'6'), _len))
+        else:
+            return(round(_float, _len))
+    else:
+        return(round(_float, _len))
+print(new_round(4.5,0))
+
+'''
