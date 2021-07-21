@@ -4,8 +4,8 @@
 [深度有趣](https://zhuanlan.zhihu.com/DeepInterests)  
 [colab, google cloud](https://drive.google.com/drive/folders/1SWKWTHqA1hC1k4adu6R4U1gLErqcvPJV?usp=sharing)  
 [dataset download](https://colab.research.google.com/drive/1PvuLIFw3bk-PPBIsWoe9Vu498T9uGf_E?usp=sharing)  
-[main work:cycleGAN](https://colab.research.google.com/drive/1KciyG8rX-lXj-OSchO6sZ5OzUGDWthRG)  
 [main work:CNN](https://drive.google.com/open?id=1u_lOXBtz0mE2xNNU3nYKcxXhqeWzTBWs)
+[main work:cycleGAN](https://colab.research.google.com/drive/1KciyG8rX-lXj-OSchO6sZ5OzUGDWthRG)  
 
 ## Dataset
 * Download flickr images by texts, flickr.walk [flickr api usage](https://www.flickr.com/services/api/)  
