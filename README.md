@@ -52,7 +52,7 @@ if __name__ == '__main__':
 ## CNN&CycleGAN&artGAN  
 ### 1. Neural style transfer  
 VGG19  
-paper: [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)  [code](https://github.com/keras-team/keras/blob/master/examples/neural_style_transfer.py)  
+paper: [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)  [code](https://colab.research.google.com/drive/1Oj7vv_gyeJduEVPadBsLQOvnKAvyboXq?usp=sharing)  
    
 每种花需要找到对应的水彩画，不能只改变笔触、线条、晕染效果，会把原图片的颜色改变  
 
